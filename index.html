@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/bb45a17de5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+       <main class="background"></main>
+    <div class="weather-app">
+        <div class="container">
+          <div class="col-12">
+            <form id="searchingForm" class="SearchForm">
+              <input
+                type="search"
+                id="search-bar"
+                class="search-bar"
+                placeholder="Type a city..."
+                autofocus="on"
+                autocomplete="off"
+              />
+              <button
+                class="search"
+                id="city-input"
+                type="submit"
+                class="btn btn-light"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+          <br />
+          <div class="overview">
+            <h1 class="cityName">
+              <span id="show-city"></span>
+              <i class="fas fa-map-marker-alt"></i>
+            </h1>
+            <div class="weatherDescription"></div>
+            <br />
+            <div class="row">
+              <div class="circle">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Clear"
+                  class="icon"
+                  id="icon"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-center weather-temperature"
+              class="smallUnits"
+            >
+              <div class="currentTemp"></div>
+              <span class="units"
+                ><a href="#" id="celsius-link" class="tempUnit" class="active"
+                  >°C</a
+                >|<a href="#" id="fahrenheit-link" class="tempUnit">°F</a>
+              </span>
+            </div>
+          </div>
+          <p class="updateTime">
+            Last updated: <span class="card-text" id="currentTime"></span>
+          </p>
+        </div>
+        <br />
+        <div class="weather-forecast" id="forecast"></div>
+        <br />
+        <br />
+        <hr class="breakline" />
+        <div class="container">
+          <div class="row">
+            <div class="col-2" id="wind">
+              <i class="fas fa-wind"></i>
+              windspeed
+              <div class="details" id="detailWind"></div>
+            </div>
+            <div class="col border-right"></div>
+            <div class="col-2">
+              <i class="fas fa-arrow-up"></i>
+              maximum
+              <br />
+              <div class="details" id="tempMax"></div>
+            </div>
+            <div class="col border-right"></div>
+            <div class="col-2">
+              <i class="fas fa-arrow-down"></i>
+              minimum
+              <div class="details" id="tempMin"></div>
+            </div>
+            <div class="col border-right"></div>
+            <div class="col-2" id="humidity">
+              <i class="fas fa-tint"></i>
+              humidity
+              <div class="details" id="detailHumidity"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <br />
+    <h6>
+      Coded by
+      <a
+        href="https://www.linkedin.com/in/asifa-malik-0b089481/"
+        target="_blank"
+        >Asifa Malik</a
+      >
+      and is open-sourced on
+      <a href="https://github.com/AsifaMalik/Vanilla-weatherapp" target="_blank"
+        >GitHub</a
+      >
+      and hosted on
+      <a href="https://unruffled-hypatia-c0f201.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </h6>
+    <script src="src/script.js"></script>
+  </body>
+</html>
