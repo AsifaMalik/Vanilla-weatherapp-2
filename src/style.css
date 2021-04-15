@@ -33,13 +33,12 @@ input {
 .search-button {
   border-radius: 30px;
   padding: 0 11px;
-  margin: 0;
   height: 33px;
   font-size: 15px;
   font-family: "Source Code Pro", monospace;
   border: #66a4ad;
   display: inline;
-  margin-right: 50px;
+
   background-image: radial-gradient(
       at top center,
       rgba(255, 255, 255, 0.03) 0%,
