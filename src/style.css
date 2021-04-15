@@ -217,10 +217,6 @@ input {
 }
 
 .circle {
-  height: 150px;
-  border-radius: 50%;
-  border: 1px solid white;
-
   background-blend-mode: normal, multiply;
   width: 150px;
   padding: 23px;
