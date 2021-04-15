@@ -4,7 +4,7 @@ body {
   width: 65%;
   margin: 67px auto;
   background-color: #ffffff;
-  background-image: url(https://images.unsplash.com/photo-1591325215719-a209e3fcf4ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTA3fHx3ZWF0aGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.pexels.com/photos/783796/pexels-photo-783796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -30,6 +30,14 @@ input {
   text-align: center;
 }
 
+.weather-app {
+  background: linear-gradient(
+    to left bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
 .search-bar {
   display: block;
   margin: 0 auto;
@@ -43,7 +51,7 @@ input {
   font-size: 17px;
   border: #66a4ad;
   display: inline;
-  margin-right: 30px;
+  margin-right: 23px;
   background-image: radial-gradient(
       at top center,
       rgba(255, 255, 255, 0.03) 0%,
@@ -203,7 +211,7 @@ input {
 
 .updateTime {
   color: black;
-  opacity: 0.4;
+  opacity: 0.7;
   margin-left: 2px;
   font-size: 14px;
 }
