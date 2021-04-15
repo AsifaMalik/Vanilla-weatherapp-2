@@ -30,28 +30,16 @@ input {
   text-align: center;
 }
 
-.weather-app {
-  background: linear-gradient(
-    to left bottom,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.2)
-  );
-}
-
-.search-bar {
-  display: block;
-  margin: 0 auto;
-}
-
 .search {
-  border-radius: 10px;
-  padding: 0 15px;
+  border-radius: 30px;
+  padding: 0 11px;
   margin: 0;
-  height: 35px;
-  font-size: 17px;
+  height: 33px;
+  font-size: 15px;
+  font-family: "Source Code Pro", monospace;
   border: #66a4ad;
   display: inline;
-  margin-right: 23px;
+  margin-right: 50px;
   background-image: radial-gradient(
       at top center,
       rgba(255, 255, 255, 0.03) 0%,
@@ -75,12 +63,17 @@ input {
   border-radius: 15px;
   box-shadow: 2px 6px 13px rgb(0 0 0 / 5%);
   backdrop-filter: blur(10px);
+  background: linear-gradient(
+    to left bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
 }
 
 .search-bar {
   display: block;
   margin: 0 auto;
-  margin-right: -10px;
+  margin-right: 26px;
 }
 
 .html {
