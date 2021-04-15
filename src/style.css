@@ -82,37 +82,19 @@ input {
 .cityName {
   text-align: center;
 }
-.iconHere {
-  margin-right: -10px;
-}
+
 .overview {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 .weather-temperature .active {
-  color: black;
+  color: grey;
   cursor: default;
 }
 .weather-temperature .active:hover {
   text-decoration: none;
 }
-.placeholder {
-  margin: 0 auto;
-  display: block;
-}
-.btn-light {
-  padding: 4px;
-}
 
-.col-12 {
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.input {
-  border-style: dashed;
-}
 .weatherDescription {
   font-size: 20px;
   color: #cc572d;
@@ -120,9 +102,7 @@ input {
   font-weight: lighter;
   opacity: 0.8;
 }
-.fa-map-marker-alt {
-  margin-right: 10px;
-}
+
 .icon {
   margin: 0 auto;
   display: block;
