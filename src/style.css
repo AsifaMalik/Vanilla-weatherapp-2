@@ -69,12 +69,6 @@ input {
   );
 }
 
-.search-bar {
-  display: block;
-  margin: 0 auto;
-  margin-right: 26px;
-}
-
 .html {
   scroll-behavior: smooth;
 }
