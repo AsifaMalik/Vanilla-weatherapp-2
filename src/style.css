@@ -30,7 +30,7 @@ input {
   text-align: center;
 }
 
-.search {
+.search-button {
   border-radius: 30px;
   padding: 0 11px;
   margin: 0;
@@ -51,13 +51,13 @@ input {
       rgba(143, 152, 157, 0.6) 100%
     );
 }
-.search:hover {
+.search-button:hover {
   background: #ec6e4c;
   color: black;
   border: none;
 }
 
-.weather-app {
+.dashboard {
   background-color: transparent;
   padding: 20px;
   border-radius: 15px;
