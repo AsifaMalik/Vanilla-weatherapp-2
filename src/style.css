@@ -1,26 +1,23 @@
 body {
   background-color: #fff;
   display: block;
-  width: 60%;
+  width: 90%;
   margin: 67px auto;
   background-color: #ffffff;
   background-image: url(https://images.pexels.com/photos/783796/pexels-photo-783796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-attachment: fixed;
   background-size: cover;
 }
-
 h1 {
   text-align: center;
   margin-top: 10px;
   font-size: 45px;
   font-family: "Source Code Pro", monospace;
 }
-
 div {
   color: black;
   font-family: "Source Code Pro", monospace;
 }
-
 input {
   background: none;
   color: black;
@@ -29,7 +26,6 @@ input {
   border-style: groove;
   text-align: center;
 }
-
 .search-button {
   border-radius: 30px;
   padding: 0 11px;
@@ -38,7 +34,6 @@ input {
   font-family: "Source Code Pro", monospace;
   border: #66a4ad;
   display: inline;
-
   background-image: radial-gradient(
       at top center,
       rgba(255, 255, 255, 0.03) 0%,
@@ -55,7 +50,6 @@ input {
   color: black;
   border: none;
 }
-
 .dashboard {
   background-color: transparent;
   padding: 20px;
@@ -68,14 +62,12 @@ input {
     rgba(255, 255, 255, 0.2)
   );
 }
-
 .html {
   scroll-behavior: smooth;
 }
 .cityName {
   text-align: center;
 }
-
 .overview {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -87,7 +79,6 @@ input {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
-
 .weatherDescription {
   font-size: 20px;
   color: #cc572d;
@@ -95,7 +86,6 @@ input {
   font-weight: lighter;
   opacity: 0.8;
 }
-
 .icon {
   margin: 0 auto;
   display: block;
@@ -106,35 +96,29 @@ input {
   font-weight: lighter;
   text-align: center;
 }
-
 .container {
   text-align: center;
   padding: 20px;
 }
-
 .col-2 {
   text-align: center;
   font-size: 12px;
   color: #cc572d;
 }
-
 .details {
   text-align: center;
   color: black;
 }
-
 .col-4.mainInfo {
   text-align: center;
   padding: 80px 0;
   font-size: 35px;
 }
-
 .weather-forecast-day {
   margin-top: 10px;
   text-align: center;
   color: #cc572d;
 }
-
 .weather-forecast-temperature {
   text-align: center;
   color: black;
@@ -143,7 +127,6 @@ input {
   margin: 0 auto;
   display: block;
 }
-
 .weather-forecast-temperature-max {
   text-align: center;
   color: black;
@@ -174,7 +157,6 @@ input {
   cursor: pointer;
   text-decoration: none;
 }
-
 .updateTime {
   color: black;
   opacity: 0.7;
@@ -182,7 +164,6 @@ input {
   font-size: 14px;
   margin-top: 2px;
 }
-
 .circle {
   background-blend-mode: normal, multiply;
   width: 150px;
@@ -190,11 +171,9 @@ input {
   margin: 20px auto 0;
   display: block;
 }
-
 .fa-map-marker-alt {
   margin-left: -20px;
 }
-
 .fa-wind {
   margin: auto;
   display: block;
@@ -213,17 +192,20 @@ input {
   color: black;
   opacity: 0.8;
 }
-
 .fa-tint {
   margin: auto;
   display: block;
   color: black;
   opacity: 0.8;
 }
-
 h6 {
   font-size: 12px;
   text-align: center;
   color: black;
   font-family: "Source Code Pro", monospace;
+}
+@media (min-width: 768px) {
+  body {
+    width: 60%;
+  }
 }
